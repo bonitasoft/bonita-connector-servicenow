@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${servicenow-update-record.impl.id}</implementationId>
+  <implementationVersion>${servicenow-update-record.impl.version}</implementationVersion>
+  <definitionId>${servicenow-update-record.def.id}</definitionId>
+  <definitionVersion>${servicenow-update-record.def.version}</definitionVersion>
+  <implementationClassname>${servicenow-update-record.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>ServiceNow Update Record connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>

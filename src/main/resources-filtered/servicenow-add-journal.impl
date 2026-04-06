@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${servicenow-add-journal.impl.id}</implementationId>
+  <implementationVersion>${servicenow-add-journal.impl.version}</implementationVersion>
+  <definitionId>${servicenow-add-journal.def.id}</definitionId>
+  <definitionVersion>${servicenow-add-journal.def.version}</definitionVersion>
+  <implementationClassname>${servicenow-add-journal.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>ServiceNow Add Journal connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>

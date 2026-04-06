@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${servicenow-create-record.impl.id}</implementationId>
+  <implementationVersion>${servicenow-create-record.impl.version}</implementationVersion>
+  <definitionId>${servicenow-create-record.def.id}</definitionId>
+  <definitionVersion>${servicenow-create-record.def.version}</definitionVersion>
+  <implementationClassname>${servicenow-create-record.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>ServiceNow Create Record connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>

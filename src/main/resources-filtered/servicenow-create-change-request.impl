@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${servicenow-create-change-request.impl.id}</implementationId>
+  <implementationVersion>${servicenow-create-change-request.impl.version}</implementationVersion>
+  <definitionId>${servicenow-create-change-request.def.id}</definitionId>
+  <definitionVersion>${servicenow-create-change-request.def.version}</definitionVersion>
+  <implementationClassname>${servicenow-create-change-request.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>ServiceNow Create Change Request connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>

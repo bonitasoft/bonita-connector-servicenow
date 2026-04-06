@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${servicenow-get-record.impl.id}</implementationId>
+  <implementationVersion>${servicenow-get-record.impl.version}</implementationVersion>
+  <definitionId>${servicenow-get-record.def.id}</definitionId>
+  <definitionVersion>${servicenow-get-record.def.version}</definitionVersion>
+  <implementationClassname>${servicenow-get-record.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>ServiceNow Get Record connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>
